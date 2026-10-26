@@ -65,8 +65,7 @@ h1, h2, h3 { letter-spacing: -.035em; }
 .hero-portrait figcaption { position: absolute; z-index: 1; bottom: 75px; left: 35px; right: 28px; font-size: .82rem; color: #fff; }
 .hero-orbit { position: absolute; inset: 14px -30px 3px -28px; border: 1px solid #ffffff40; border-radius: 50%; transform: rotate(-24deg); }
 .hero-orbit::before { content: ''; position: absolute; right: 18px; bottom: 45px; height: 22px; width: 22px; background: var(--color-secondary); border: 5px solid #fff; border-radius: 50%; }
-.hero-note { position: absolute; z-index: 2; bottom: 5px; left: -30px; display: flex; align-items: center; gap: 18px; padding: 18px 25px; background: var(--color-accent-2); color: var(--color-primary-dark); box-shadow: 0 14px 30px #0003; transform: rotate(-5deg); border-radius: 5px; font-size: 1.05rem; line-height: 1.5; }
-.note-star { font-size: 3rem; line-height: 1; }
+.hero-note { position: absolute; z-index: 2; bottom: 5px; left: -30px; padding: 18px 25px; background: var(--color-accent-2); color: var(--color-primary-dark); box-shadow: 0 14px 30px #0003; transform: rotate(-5deg); border-radius: 5px; font-size: 1.05rem; line-height: 1.5; }
 .hero-visual-label { position: absolute; top: -15px; right: 8px; font-size: .62rem; letter-spacing: .15em; text-transform: uppercase; color: #e0efe9; }
 .hero-bottom { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 22px; font-size: .68rem; color: #d7e4ed; border-top: 1px solid #ffffff26; }
 .hero-bottom a { display: inline-flex; align-items: center; gap: 20px; color: #fff; }
@@ -206,7 +205,6 @@ h1, h2, h3 { letter-spacing: -.035em; }
 .art-ring::before, .art-ring::after { content: ''; position: absolute; inset: 25px; border: 1px solid #ffffff38; border-radius: 50%; }
 .art-ring::after { inset: 50px; }
 .art-disc { position: absolute; right: 0; top: 70px; height: 145px; width: 145px; border-radius: 50%; background: var(--color-accent); border: 1px solid #fff5; }
-.art-star { position: absolute; left: 20px; top: 20px; font-size: 8rem; line-height: 1.3; color: var(--color-accent-2); transform: rotate(-15deg); }
 .art-caption { position: absolute; left: 14px; bottom: 0; font-size: .58rem; text-transform: uppercase; letter-spacing: .15em; color: #deece7; }
 .content-section { padding: 72px 0; }
 .content-section h2 { font-size: clamp(1.65rem,2.6vw,2.3rem); }
@@ -483,7 +481,6 @@ h1, h2, h3 { letter-spacing: -.035em; }
   .hero-portrait img { object-position: center 46%; }
   .hero-portrait figcaption { left: 24px; bottom: 65px; font-size: .74rem; }
   .hero-note { bottom: 0; left: 0; font-size: .85rem; padding: 12px 20px; }
-  .note-star { font-size: 2.3rem; }
   .hero-orbit { inset: 0 0 6px 0; transform: rotate(-15deg); }
   .hero-orbit::before { width: 18px; height: 18px; border-width: 4px; bottom: 35px; right: 12px; }
   .hero-visual-label { font-size: .5rem; top: -8px; right: 15px; }
