@@ -1,0 +1,216 @@
+{
+  "1pic.png": {
+    "src": "assets/images/1pic-800.webp",
+    "width": 800,
+    "height": 533,
+    "srcset": "assets/images/1pic-640.webp 640w, assets/images/1pic-800.webp 800w"
+  },
+  "1stPost.png": {
+    "src": "assets/images/1stpost-1080.webp",
+    "width": 1080,
+    "height": 1350,
+    "srcset": "assets/images/1stpost-640.webp 640w, assets/images/1stpost-1080.webp 1080w"
+  },
+  "1stPost2.png": {
+    "src": "assets/images/1stpost2-1080.webp",
+    "width": 1080,
+    "height": 1350,
+    "srcset": "assets/images/1stpost2-640.webp 640w, assets/images/1stpost2-1080.webp 1080w"
+  },
+  "2pic.png": {
+    "src": "assets/images/2pic-800.webp",
+    "width": 800,
+    "height": 533,
+    "srcset": "assets/images/2pic-640.webp 640w, assets/images/2pic-800.webp 800w"
+  },
+  "2policy subscription background img.png": {
+    "src": "assets/images/2policy-subscription-background-img-1280.webp",
+    "width": 1280,
+    "height": 640,
+    "srcset": "assets/images/2policy-subscription-background-img-640.webp 640w, assets/images/2policy-subscription-background-img-1280.webp 1280w, assets/images/2policy-subscription-background-img-1774.webp 1774w"
+  },
+  "3pic.png": {
+    "src": "assets/images/3pic-800.webp",
+    "width": 800,
+    "height": 533,
+    "srcset": "assets/images/3pic-640.webp 640w, assets/images/3pic-800.webp 800w"
+  },
+  "4pic.png": {
+    "src": "assets/images/4pic-492.webp",
+    "width": 492,
+    "height": 279,
+    "srcset": "assets/images/4pic-492.webp 492w"
+  },
+  "5pic.png": {
+    "src": "assets/images/5pic-800.webp",
+    "width": 800,
+    "height": 533,
+    "srcset": "assets/images/5pic-640.webp 640w, assets/images/5pic-800.webp 800w"
+  },
+  "6pic.png": {
+    "src": "assets/images/6pic-800.webp",
+    "width": 800,
+    "height": 533,
+    "srcset": "assets/images/6pic-640.webp 640w, assets/images/6pic-800.webp 800w"
+  },
+  "7pic.png": {
+    "src": "assets/images/7pic-800.webp",
+    "width": 800,
+    "height": 533,
+    "srcset": "assets/images/7pic-640.webp 640w, assets/images/7pic-800.webp 800w"
+  },
+  "auditoriumimage.png": {
+    "src": "assets/images/auditoriumimage-1280.webp",
+    "width": 1280,
+    "height": 854,
+    "srcset": "assets/images/auditoriumimage-640.webp 640w, assets/images/auditoriumimage-1280.webp 1280w, assets/images/auditoriumimage-1920.webp 1920w"
+  },
+  "chairman.png": {
+    "src": "assets/images/chairman-200.webp",
+    "width": 200,
+    "height": 200,
+    "srcset": "assets/images/chairman-200.webp 200w"
+  },
+  "digitallead.png": {
+    "src": "assets/images/digitallead-200.webp",
+    "width": 200,
+    "height": 200,
+    "srcset": "assets/images/digitallead-200.webp 200w"
+  },
+  "image1.png": {
+    "src": "assets/images/image1-567.webp",
+    "width": 567,
+    "height": 397,
+    "srcset": "assets/images/image1-567.webp 567w"
+  },
+  "image2.png": {
+    "src": "assets/images/image2-401.webp",
+    "width": 401,
+    "height": 208,
+    "srcset": "assets/images/image2-401.webp 401w"
+  },
+  "image3.png": {
+    "src": "assets/images/image3-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "srcset": "assets/images/image3-640.webp 640w, assets/images/image3-1280.webp 1280w, assets/images/image3-1536.webp 1536w"
+  },
+  "image33.png": {
+    "src": "assets/images/image33-800.webp",
+    "width": 800,
+    "height": 533,
+    "srcset": "assets/images/image33-640.webp 640w, assets/images/image33-800.webp 800w"
+  },
+  "pic1.png": {
+    "src": "assets/images/pic1-431.webp",
+    "width": 431,
+    "height": 501,
+    "srcset": "assets/images/pic1-431.webp 431w"
+  },
+  "pic2.png": {
+    "src": "assets/images/pic2-422.webp",
+    "width": 422,
+    "height": 330,
+    "srcset": "assets/images/pic2-422.webp 422w"
+  },
+  "pic3.png": {
+    "src": "assets/images/pic3-272.webp",
+    "width": 272,
+    "height": 233,
+    "srcset": "assets/images/pic3-272.webp 272w"
+  },
+  "pic4.JPG": {
+    "src": "assets/images/pic4-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "srcset": "assets/images/pic4-640.webp 640w, assets/images/pic4-1280.webp 1280w, assets/images/pic4-1920.webp 1920w"
+  },
+  "pic4.png": {
+    "src": "assets/images/pic4-1280.webp",
+    "width": 1280,
+    "height": 777,
+    "srcset": "assets/images/pic4-640.webp 640w, assets/images/pic4-1280.webp 1280w, assets/images/pic4-1610.webp 1610w"
+  },
+  "pic5.2.png": {
+    "src": "assets/images/pic5-2-612.webp",
+    "width": 612,
+    "height": 396,
+    "srcset": "assets/images/pic5-2-612.webp 612w"
+  },
+  "pic5.png": {
+    "src": "assets/images/pic5-612.webp",
+    "width": 612,
+    "height": 396,
+    "srcset": "assets/images/pic5-612.webp 612w"
+  },
+  "pic6.png": {
+    "src": "assets/images/pic6-1000.webp",
+    "width": 1000,
+    "height": 560,
+    "srcset": "assets/images/pic6-640.webp 640w, assets/images/pic6-1000.webp 1000w"
+  },
+  "policy AI transparency in south african public services img 2.png": {
+    "src": "assets/images/policy-ai-transparency-in-south-african-public-services-img-2-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "assets/images/policy-ai-transparency-in-south-african-public-services-img-2-640.webp 640w, assets/images/policy-ai-transparency-in-south-african-public-services-img-2-1280.webp 1280w, assets/images/policy-ai-transparency-in-south-african-public-services-img-2-1672.webp 1672w"
+  },
+  "policy AI transparency in south african public services img.png": {
+    "src": "assets/images/policy-ai-transparency-in-south-african-public-services-img-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "assets/images/policy-ai-transparency-in-south-african-public-services-img-640.webp 640w, assets/images/policy-ai-transparency-in-south-african-public-services-img-1280.webp 1280w, assets/images/policy-ai-transparency-in-south-african-public-services-img-1672.webp 1672w"
+  },
+  "policy digital identity frameworks for inclusive governance img.png": {
+    "src": "assets/images/policy-digital-identity-frameworks-for-inclusive-governance-img-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "assets/images/policy-digital-identity-frameworks-for-inclusive-governance-img-640.webp 640w, assets/images/policy-digital-identity-frameworks-for-inclusive-governance-img-1280.webp 1280w, assets/images/policy-digital-identity-frameworks-for-inclusive-governance-img-1672.webp 1672w"
+  },
+  "policy icasa sona budget speech img.png": {
+    "src": "assets/images/policy-icasa-sona-budget-speech-img-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "assets/images/policy-icasa-sona-budget-speech-img-640.webp 640w, assets/images/policy-icasa-sona-budget-speech-img-1280.webp 1280w, assets/images/policy-icasa-sona-budget-speech-img-1672.webp 1672w"
+  },
+  "policy regulating algorithmic decision-making in south africa img.png": {
+    "src": "assets/images/policy-regulating-algorithmic-decision-making-in-south-africa-img-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "assets/images/policy-regulating-algorithmic-decision-making-in-south-africa-img-640.webp 640w, assets/images/policy-regulating-algorithmic-decision-making-in-south-africa-img-1280.webp 1280w, assets/images/policy-regulating-algorithmic-decision-making-in-south-africa-img-1672.webp 1672w"
+  },
+  "policy subscription background img.png": {
+    "src": "assets/images/policy-subscription-background-img-1280.webp",
+    "width": 1280,
+    "height": 704,
+    "srcset": "assets/images/policy-subscription-background-img-640.webp 640w, assets/images/policy-subscription-background-img-1280.webp 1280w, assets/images/policy-subscription-background-img-1691.webp 1691w"
+  },
+  "policylead.png": {
+    "src": "assets/images/policylead-768.webp",
+    "width": 768,
+    "height": 1247,
+    "srcset": "assets/images/policylead-640.webp 640w, assets/images/policylead-768.webp 768w"
+  },
+  "president.jpeg": {
+    "src": "assets/images/president-1179.webp",
+    "width": 1179,
+    "height": 1149,
+    "srcset": "assets/images/president-640.webp 640w, assets/images/president-1179.webp 1179w"
+  },
+  "SADGF.jpg": {
+    "src": "assets/images/sadgf-150.webp",
+    "width": 150,
+    "height": 150,
+    "srcset": "assets/images/sadgf-150.webp 150w"
+  },
+  "SADGF-Logo.png": {
+    "src": "assets/images/logo.png",
+    "width": 100,
+    "height": 100
+  },
+  "summit-2026-programme-qr.png": {
+    "src": "assets/images/summit-programme-qr.png",
+    "width": 540,
+    "height": 540
+  }
+}
