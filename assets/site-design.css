@@ -482,7 +482,7 @@ h1, h2, h3 { letter-spacing: -.035em; }
   .hero-portrait figcaption { left: 24px; bottom: 65px; font-size: .74rem; }
   .hero-note { bottom: 0; left: 0; font-size: .85rem; padding: 12px 20px; }
   .hero-orbit { inset: 0 0 6px 0; transform: rotate(-15deg); }
-  .hero-orbit::before { width: 18px; height: 18px; border-width: 4px; bottom: 35px; right: 12px; }
+  .hero-orbit::before { display: none; }
   .hero-visual-label { font-size: .5rem; top: -8px; right: 15px; }
   .hero-bottom { padding-block: 18px; font-size: .59rem; align-items: flex-start; }
   .hero-bottom > span { max-width: 170px; }
