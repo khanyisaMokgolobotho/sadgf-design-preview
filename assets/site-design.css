@@ -445,6 +445,7 @@ h1, h2, h3 { letter-spacing: -.035em; }
   .page-header-art { transform: scale(.8); transform-origin: center right; }
   .governance-overview a:nth-child(2) { border-right: 0; }
   .governance-overview a:nth-child(-n+2) { border-bottom: 1px solid var(--design-line); }
+  .governance-overview a:last-child:nth-child(odd) { grid-column: 1 / -1; }
   #executive-board .leadership-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }
 @media (max-width:800px) {
