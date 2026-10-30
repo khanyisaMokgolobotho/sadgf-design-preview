@@ -137,11 +137,12 @@ h1, h2, h3 { letter-spacing: -.035em; }
 .research-story:not(.research-story-featured) .research-story-image { height: 220px; }
 .research-story:not(:has(.research-story-media)) { grid-template-columns: 1fr; }
 
-/* Preserve graphics in full and keep selected landscape photo framing steady on hover. */
+/* Use image-specific framing and keep it steady on hover. */
 .resource-card .publication-card-image img[data-image-fit='contain'], .research-story-image img[data-image-fit='contain'], .publication-editorial-photo .editorial-feature img[data-image-fit='contain'] { object-fit: contain; background: #081b33; }
 .research-story:hover .research-story-image img[data-image-fit], .resource-card:hover .publication-card-image img[data-image-fit] { transform: none; }
 img[data-image-fit='cover'][data-image-position='bottom'] { object-position: center bottom; }
 img[data-image-fit='cover'][data-image-position='lower-center'] { object-position: center 65%; }
+img[data-image-fit='cover'][data-image-position='upper-center'] { object-position: center 25%; }
 .research-story .research-story-image:has(img[data-image-fit='contain']) { height: auto; }
 .research-story .research-story-image img[data-image-fit='contain'] { height: auto; max-height: none; }
 .publication-editorial-photo .editorial-feature:has(img[data-image-fit='contain']) { height: auto; min-height: 0; display: block; }

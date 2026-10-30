@@ -1,6 +1,6 @@
 # Publication images
 
-These are local WebP versions of photographs and supplied graphics selected for the nine publication topics. Resizing and compression are the only asset changes. Supplied graphics use `fit: contain` to preserve embedded text and content. The two landscape summit photographs use `fit: cover` with individually selected positions to fill the wide card frames while keeping the main faces visible. Hovering does not zoom either image type. Original photographs remain unchanged.
+These are local WebP versions of photographs and supplied graphics selected for the nine publication topics. Resizing and compression are the only asset changes. Image framing is set per item in the source register. The State of Digital Governance and Cybersecurity graphics use `fit: cover` to fill the wide frames, with the central title and security details kept in view. Other supplied graphics use `fit: contain`. The two landscape summit photographs also use `fit: cover` with individually selected positions to keep the main faces visible. Hovering does not zoom images. Source files remain unchanged.
 
 The internal source register is `src/_data/publicationPhotography.json`: image titles, available creator credits, source pages, download URLs (or supplied local assets), licences, accessible descriptions, dimensions and responsive variants. Supplier labels are not displayed on the website. Images supplied on 30 October 2026 are preserved in `supplied/`; their creators are not attributed to SADGF and no external licence has been assumed.
 
