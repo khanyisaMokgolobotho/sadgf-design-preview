@@ -137,7 +137,7 @@ h1, h2, h3 { letter-spacing: -.035em; }
 .research-story:not(.research-story-featured) .research-story-image { height: 220px; }
 .research-story:not(:has(.research-story-media)) { grid-template-columns: 1fr; }
 
-/* Publication photography and source credits. */
+/* Keep the complete publication image visible at every size, including on hover. */
 .resource-card .publication-card-image img[data-image-fit='contain'], .research-story-image img[data-image-fit='contain'], .publication-editorial-photo .editorial-feature img[data-image-fit='contain'] { object-fit: contain; background: #081b33; }
 .research-story:hover .research-story-image img[data-image-fit='contain'], .resource-card:hover .publication-card-image img[data-image-fit='contain'] { transform: none; }
 .research-story .research-story-image:has(img[data-image-fit='contain']) { height: auto; }
@@ -278,7 +278,7 @@ h1, h2, h3 { letter-spacing: -.035em; }
 .publication-grid { gap: 28px; }
 .resource-card { border: 1px solid var(--design-line); border-radius: 12px; box-shadow: none; background: #fff; overflow: hidden; transition: box-shadow .25s, transform .25s; }
 .resource-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px #000c5f0d; }
-.resource-card .publication-card-image { display: block; padding: 0; height: auto; aspect-ratio: 16 / 9; min-height: 0; border-radius: 0; }
+.resource-card .publication-card-image { display: block; flex-shrink: 0; padding: 0; height: auto; aspect-ratio: 16 / 9; min-height: 0; border-radius: 0; }
 .resource-card .publication-card-image img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: cover; transition: transform .45s; }
 .resource-card:hover .publication-card-image img { transform: scale(1.035); }
 .resource-card .publication-card-body { padding: 27px; }
@@ -287,34 +287,6 @@ h1, h2, h3 { letter-spacing: -.035em; }
 .resource-card .resource-topic { font-size: .74rem; }
 .publication-label { padding: 5px 9px; font-size: .59rem; border-radius: 4px; }
 .publication-card-meta .status-tag { border-radius: 4px; font-size: .64rem; }
-
-/* Publication collections: compact editorial cards with room for the full artwork. */
-.publication-archive { background: linear-gradient(180deg, #fff, #f3f6f7); }
-.publication-archive .publication-grid { gap: 26px; }
-.publication-archive .resource-card { padding: 10px 10px 0; border-radius: 20px; box-shadow: 0 4px 16px #000c5f05; transition: border-color .25s, box-shadow .25s, transform .25s; }
-.publication-archive .resource-card:hover, .publication-archive .resource-card:focus-within { border-color: #9aafa9; box-shadow: 0 14px 32px #000c5f0d; }
-.publication-archive .resource-card .publication-card-image { flex-shrink: 0; aspect-ratio: 16 / 10; border-radius: 12px; background: #081b33; }
-.publication-archive .publication-card-image::before, .publication-archive .publication-card-image::after { display: none; }
-.publication-archive .resource-card .publication-card-body { align-items: stretch; gap: 0; padding: 22px 14px 0; }
-.publication-archive .publication-card-meta { flex-direction: row; align-items: center; justify-content: space-between; gap: 8px 12px; margin: 0 0 16px; }
-.publication-archive .publication-label { min-height: 0; padding: 0; background: transparent; font-size: .65rem; line-height: 1.5; letter-spacing: .075em; }
-.publication-archive .publication-card-meta .status-tag { flex-shrink: 0; padding: 5px 10px; border-radius: 999px; font-size: .65rem; line-height: 1.5; font-weight: 600; background: #eef2fa; color: #354b71; }
-.publication-archive .status-tag.status-published { background: #e5f4ec; color: #075937; }
-.publication-archive .status-tag.status-planned { background: #fff2cd; color: #705000; }
-.publication-archive .status-tag.status-in-development { background: #edf0ff; color: #253f88; }
-.publication-archive .status-tag.status-forthcoming { background: #e9f3f4; color: #235c65; }
-.publication-archive .resource-card h2 { margin: 0 0 12px; font-size: 1.15rem; line-height: 1.45; letter-spacing: -.025em; text-wrap: pretty; }
-.publication-archive .resource-card h2 a { color: var(--color-primary-dark); text-decoration: none; }
-.publication-archive .resource-card h2 a:hover { color: var(--color-accent); text-decoration: underline; text-underline-offset: 4px; }
-.publication-archive .publication-description { margin: 0 0 18px; font-size: .85rem; line-height: 1.75; color: var(--color-text-secondary); }
-.publication-archive .resource-card .resource-topic { align-self: flex-start; margin: auto 0 22px; padding: 5px 10px; border: 1px solid #dceae3; border-radius: 6px; background: #f5f9f6; color: #006340; font-size: .69rem; line-height: 1.6; font-weight: 500; }
-.publication-archive .publication-card-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 4px 14px; min-height: 66px; padding: 12px 0; border-top: 1px solid var(--design-line); }
-.publication-archive .publication-card-footer time { font-size: .7rem; line-height: 1.6; }
-.publication-archive .publication-card-footer .text-link { margin: 0; padding: 10px 0; font-size: .76rem; line-height: 1.5; color: var(--color-primary); }
-.publication-archive .publication-card-footer .publication-unavailable { margin: 0; padding: 0; font-size: .73rem; line-height: 1.65; color: var(--color-text-secondary); }
-@media (min-width: 1200px) {
-  .publication-archive .publication-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
 
 .feature-panel { border-radius: 12px 60px 12px 12px; }
 .feature-panel > div { padding: 42px; }
