@@ -1,6 +1,6 @@
 # Publication images
 
-These are local WebP versions of photographs and supplied graphics selected for the nine publication topics. Resizing and compression are the only asset changes. All publication images use `fit: contain` to show the complete image within its frame, including embedded text, without stretching or cropping on hover.
+These are local WebP versions of photographs and supplied graphics selected for the nine publication topics. Resizing and compression are the only asset changes. Supplied graphics use `fit: contain` to preserve embedded text and content. The two landscape summit photographs use `fit: cover` with individually selected positions to fill the wide card frames while keeping the main faces visible. Hovering does not zoom either image type. Original photographs remain unchanged.
 
 The internal source register is `src/_data/publicationPhotography.json`: image titles, available creator credits, source pages, download URLs (or supplied local assets), licences, accessible descriptions, dimensions and responsive variants. Supplier labels are not displayed on the website. Images supplied on 30 October 2026 are preserved in `supplied/`; their creators are not attributed to SADGF and no external licence has been assumed.
 
