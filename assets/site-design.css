@@ -4,9 +4,18 @@
   --surface-soft: #f3f6f7;
   --design-line: #dce3e5;
   --design-ink: #000c5f;
+  --surface-footer: #000a39;
 }
 body { background: #fff; }
 body::before { display: none; }
+/* Keep touch scrolling on the document and paint the area beneath the footer. */
+@media screen and (hover: none) and (pointer: coarse) {
+  html { background: var(--surface-footer); overscroll-behavior-y: none; }
+  @supports (overflow-x: clip) {
+    /* Unlike hidden, clip does not turn the body's vertical overflow into auto. */
+    body { overflow-x: clip; }
+  }
+}
 ::selection { background: var(--color-accent-2); color: var(--color-primary-dark); }
 h1, h2, h3 { letter-spacing: -.035em; }
 .serif-accent { font-family: var(--font-serif); font-weight: 400; letter-spacing: -.045em; }
@@ -401,7 +410,7 @@ img[data-image-fit='cover'][data-image-position='upper-center'] { object-positio
 .contact-info p { font-size: .92rem; }
 .editorial-header { background: #f0f4fa; }
 .editorial-title { letter-spacing: -.04em; }
-.site-footer { background: #000a39; border: 0; padding-top: 64px; position: relative; }
+.site-footer { background: var(--surface-footer); border: 0; padding-top: 64px; position: relative; }
 .site-footer::before { display: none; }
 .site-footer .footer-logo .logo-text { background: none; -webkit-text-fill-color: #fff; color: #fff; }
 .site-footer .footer-tagline { font-family: var(--font-serif); font-size: .96rem; color: #fff; margin-block: 20px 12px; }
